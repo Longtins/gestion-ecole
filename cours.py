@@ -1,7 +1,7 @@
 class Cours:
-    def __init__(self, nom, enseignant):
+    def __init__(self, nom, professeur):
         self.nom = nom
-        self.enseignant = enseignant
+        self.professeur = professeur
         self.eleves = []
 
     def inscrire(self, eleve):
