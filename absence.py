@@ -11,3 +11,6 @@ class Absence:
     def __str__(self):
         statut = "justifiée" if self.justifiee else "non justifiée"
         return f"Absence de {self.eleve} en {self.cours} le {self.date} ({statut})"
+    
+    def est_justifiee(self):
+        return self.justifiee
