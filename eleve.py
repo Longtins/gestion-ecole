@@ -5,5 +5,5 @@ class Eleve:
         self.num_etudiant = num_etudiant
         self.telephone = telephone
 
-def __str__(self):
-    return f"{self.prenom} {self.nom} (numéro: {self.num_etudiant}) — {self.telephone}"
+    def __str__(self):
+        return f"{self.prenom} {self.nom} ({self.telephone})(numéro: {self.num_etudiant}) — {self.telephone}"
